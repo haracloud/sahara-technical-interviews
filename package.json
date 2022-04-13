@@ -1,0 +1,19 @@
+{
+  "name": "parking-garage",
+  "version": "1.0.0",
+  "description": "Boilerplate for parking garage coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./server/index.js",
+    "backend": "node ./backend/index.js",
+    "stubs": "node ./stubs/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "http-server": "^14.1.0",
+    "node-router": "^0.1.6"
+  }
+}
